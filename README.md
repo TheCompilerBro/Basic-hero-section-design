@@ -13,13 +13,13 @@ Easy to Customize: The code is well-commented and structured, making it simple t
 
 <h2> Desktop View </h2>
 
+<img width="1710" height="1107" alt="Screenshot 2025-07-21 at 7 30 52 PM" src="https://github.com/user-attachments/assets/8dfce8dd-42fa-4404-b3e0-642bf76bfbc1" />
+
+
 <h2> 🛠️ Technologies Used </h2>
 HTML5: For the structure and content of the page.
 
 CSS3: For styling, layout (using Flexbox), and responsiveness (using media queries).
-
-![Navbar Screenshot](<img width="1710" height="1107" alt="Screenshot 2025-07-21 at 7 30 52 PM" src="https://github.com/user-attachments/assets/f90c7857-30d5-490c-9d1d-7d1ad08df3ed" />
-)
 
  <h2> 📂 How to Use </h2>
 To use this project on your local machine, follow these simple steps:
