@@ -18,6 +18,9 @@ HTML5: For the structure and content of the page.
 
 CSS3: For styling, layout (using Flexbox), and responsiveness (using media queries).
 
+![Navbar Screenshot](<img width="1710" height="1107" alt="Screenshot 2025-07-21 at 7 30 52 PM" src="https://github.com/user-attachments/assets/f90c7857-30d5-490c-9d1d-7d1ad08df3ed" />
+)
+
  <h2> 📂 How to Use </h2>
 To use this project on your local machine, follow these simple steps:
 
@@ -25,6 +28,8 @@ Clone the repository:
 
 Bash
 git clone (https://github.com/TheCompilerBro/Basic-hero-section-design.git)
+
+
 Navigate to the project directory:
 
 Bash
