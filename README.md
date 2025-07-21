@@ -24,7 +24,7 @@ To use this project on your local machine, follow these simple steps:
 Clone the repository:
 
 Bash
-git clone [https://github.com/your-username/your-repository-name.git](https://github.com/TheCompilerBro/Basic-hero-section-design.git)
+git clone (https://github.com/TheCompilerBro/Basic-hero-section-design.git)
 Navigate to the project directory:
 
 Bash
