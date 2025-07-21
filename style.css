@@ -1,0 +1,92 @@
+/* General body styling */
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Hero section container */
+.hero{
+    background-color: #f0f8ff; /* A light blue background */
+    height: 100vh; /* Makes the hero section take up the full height of the viewport */
+    display: flex;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;  /* Vertically centers the content */
+    text-align: center;  /* Ensures the text inside is centered */
+}
+/* Content within the hero section */
+.hero-content {
+     background-color: white; /* The box needs a background color */
+    border-radius: 10px;      /* Optional: gives the box rounded corners */
+    padding: 30px;            /* Adds space between the content and the box edges */
+    max-width: 500px;         /* Sets a maximum width for the box */
+    
+    /* The Box Shadow Property */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    
+    transition: box-shadow 0.3s ease-in-out; /* Adds a smooth transition for the hover effect */
+}
+.hero-content:hover{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+/* Main heading */
+
+.hero-content h1{
+    font-size: 3em; /* Large font size for the heading */
+    margin-bottom: 20px;
+    color: #333;
+}
+/* Paragraph text */
+.hero-content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+/* Call-to-action button */
+.cta-button {
+    background-color: #007bff; /* A nice blue color for the button */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none; /* Removes the underline from the link */
+    border-radius: 5px; /* Rounds the corners of the button */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Adds a smooth transition on hover */
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+
+/* --- Media Query for Responsiveness --- */
+/* This block applies styles only when the screen width is 768px or less */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 60vh; /* Reduce height on smaller screens */
+    }
+
+    .hero-title {
+        font-size: 2.5rem; /* Decrease font size for mobile */
+    }
+
+    .hero-subtitle {
+        font-size: 1.2rem; /* Decrease font size for mobile */
+    }
+
+    .cta-button {
+        padding: 12px 25px; /* Adjust button padding for smaller screens */
+        font-size: 1rem;
+    }
+}
+
+/* Optional: Further adjustments for very small screens */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+}
